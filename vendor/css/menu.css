@@ -1,0 +1,71 @@
+.badge-notify {
+    background: red;
+    position: relative;
+    top: -10px;
+    left: -25px;
+}
+
+/* CSS for dropdown login menu */
+/* General sizing */
+ul.dropdown-lr {
+    width: 300px;
+}
+
+/* mobile fix */
+@media (max-width: 768px) {
+    .dropdown-lr h3 {
+        color: #eee;
+    }
+
+    .dropdown-lr label {
+        color: #eee;
+    }
+}
+
+/* CSS for dropdown account menu (after login) */
+.navbar-login {
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-login-session {
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.icon-size {
+    font-size: 87px;
+}
+
+.autocomplete-suggestions {
+    border: 1px solid #999;
+    background: #FFF;
+    overflow: auto;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.25);
+}
+
+.autocomplete-suggestion {
+    padding: 2px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.autocomplete-selected {
+    background: #F0F0F0;
+}
+
+.autocomplete-suggestions strong {
+    font-weight: normal;
+    color: #3399FF;
+}
+
+.autocomplete-group {
+    padding: 2px 5px;
+}
+
+.autocomplete-group strong {
+    display: block;
+    border-bottom: 1px solid #000;
+}
